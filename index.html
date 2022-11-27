@@ -4,32 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix Landing page</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Netflix Nigeria - watch TV shows online, Watch movies online</title>
+  <link rel="icon" href="/assets/netflix-logo-png-2562.png">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav>
-    <img src="/assets/netflix-logo-png-2562.png" alt="Netflix Logo" class="logo">
-    <button><a href="https://www.netflix.com/ng/login">Sign In</a></button>
-  </nav>
-
-  <div class="hero_text">
-      <h1>Unlimited movies, TV shows, and more.</h1>
-      <h2>Watch anywhere. Cancel anytime.</h2>
-      <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-  </div>
-
-
-  <div class="form_comp">
-    <input type="text" name="email" class="email-input">
-    <label for="email">Email Address</label>
-  </div>
+  <div class="img_cover">
+    <nav class="navbar">
+      <div class="navbar_brand">
+        <img src="/assets/netflix-logo-png-2562.png" alt="Netflix Logo" class="logo">
+      </div>
+      <!-- <button class="signin_btn"><a href="https://www.netflix.com/ng/login" target="_blank">Sign In</a></button> -->
+      <button class="signin_btn">Sign In</button>
+    </nav>
   
+    <section>
+      <div class="bg_img_container">
+        <img src="/assets/netflix_bg_img.jpeg" alt="background hero image" class="bg_img">
+      </div>
+
+    <div class="bg_overlay"></div>
+<div class="hero_card">
+  <div class="hero_text">
+        <h1>Unlimited movies, TV shows, and more.</h1>
+        <h2 class="watch">Watch anywhere. Cancel anytime.</h2>
+        <h3 class="ready">Ready to watch? Enter your email to create or restart your membership.</h3>
+    </div>
+</div>
+    
+<div class="email_container">
   <div class="form_comp">
-    <label class="input_id" placeholder="email
     <input type="email" name="email" class="email_input" id="input_email">
     <label for="email" class="label_email">Email Address</label>
-    </label>
+  </div>
+  <button class="get_started_btn">Get Started<i class="ri-arrow-right-s-line"></i>
+  </button>
+</div>
+    </section>
   </div>
 
 </body>
