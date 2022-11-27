@@ -1,0 +1,103 @@
+/* variables */
+:root {
+  --font-family: "sans serif" satoshi;
+  --primary-color: #e50914;
+  --secondary-color: #222;
+  --neutral: #ffffff;
+  --line-height: 2rem;
+  --transition: 0.4s;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  width: 80px;
+}
+
+nav{
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  justify-content: space-between;
+  padding: 0 3.5rem;
+  height: 100%;
+}
+
+
+body{
+  background: url("/assets/netflix_bg_img.jpeg");
+
+}
+
+/* body{
+ background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),url("/background.jpeg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+img{
+  background-repeat: no-repeat;
+}
+
+.bg-img{
+  position: cover;
+  width: 100%;
+}
+
+
+.hero_text{
+  /* max-width: 100%; */
+  position: relative;
+  text-align: center;
+  padding: 75px 0;
+  margin: 0 auto;
+  color: var(--neutral);
+}
+
+/* .hero_text h1{
+  font-size: 60px;
+  max-width: 600px;
+  line-height: var(--line-height);
+}
+.hero_text h2{
+  font-size: 24px;
+  line-height: var(--line-height);
+}
+.hero_text h3{
+  font-size: 16px;
+  line-height: var(--line-height);
+} */
+
+
+
+/* .class_comp{
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
+} */
+
+.email_input {
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 16px;
+}
+
+
+/* button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+} */
